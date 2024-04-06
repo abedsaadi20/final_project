@@ -39,9 +39,9 @@ public class TraingleCalssification {
 
 	@Test
 	public void C1C2C3FC4T() {
-		browser.findElement(By.name("side1")).sendKeys("8");
-		browser.findElement(By.name("side2")).sendKeys("3");
-		browser.findElement(By.name("side3")).sendKeys("3");
+		browser.findElement(By.name("side1")).sendKeys("4");
+		browser.findElement(By.name("side2")).sendKeys("2");
+		browser.findElement(By.name("side3")).sendKeys("2");
 
 		browser.findElement(By.id("identify-triangle-action")).click();
 		String expectedValue = "Error: Not a Traingle";
@@ -53,9 +53,9 @@ public class TraingleCalssification {
 
 	@Test
 	public void C1C2C4FC3T() {
-		browser.findElement(By.name("side1")).sendKeys("1");
-		browser.findElement(By.name("side2")).sendKeys("2");
-		browser.findElement(By.name("side3")).sendKeys("1");
+		browser.findElement(By.name("side1")).sendKeys("5");
+		browser.findElement(By.name("side2")).sendKeys("15");
+		browser.findElement(By.name("side3")).sendKeys("5");
 
 		browser.findElement(By.id("identify-triangle-action")).click();
 		String expectedValue = "Error: Not a Traingle";
